@@ -1,0 +1,121 @@
+/* Arianne Butler - Homepage css file */
+
+/*	To Do:
+		fix photography formats
+		app screen shots and write up (also add some text)
+		370 descrip, add design doc maybe 
+*/
+
+body {
+	text-align:center;
+	color: #000000;
+	font-family: Bradley Hand ITC;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+	font-family: Bradley Hand ITC;
+}
+
+img { 
+	width: 250px; 
+	height: 250px;
+	border-radius: 0.4em;
+}
+
+#mainHeading {
+	line-height: 80%;
+}
+
+/* The whole thing */ 
+#everything {  
+	width:764px;
+	height:450px;
+	margin: 0 auto;
+	/*border: 0px solid #000;*/
+}
+
+#main_left { 
+	float:left; 
+	border: 0px solid #333; 
+	text-align:center; 
+	width:250px; 
+	padding:2px;
+}
+
+#main_center { 
+	float:left; 
+	border: 0px solid #333; 
+	text-align:center; 
+	width:250px; 
+	padding:3px; 
+} 
+
+#main_right { 
+	float:left; 
+	border: 0px solid #333; 
+	text-align:center; 
+	width:250px; 
+	padding:2px; 
+}
+
+button { 
+	background-color: #fff; 
+	padding:10px; 
+	border: none;	
+	font-size: 150%;
+	color: #000000;	
+	font-family: Bradley Hand ITC;
+}
+
+button:hover {
+	background-color: #fff;
+	opacity: 0.6;
+    filter: alpha(opacity=60); /* For Internet Explorer */
+}
+
+ /* DROP DOWN MENUS */
+.dropdown {
+    position: relative;
+    display: inline-block;	
+	height:20px;
+	
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	background-color:#fff;
+	text-align:left;
+
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+footer {
+	text-align: centre;
+	font-size: 130%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #000000;	
+	height: 80px;
+}
+
+/*img:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}*/
+
+
+
+
+
+
+
+
+	

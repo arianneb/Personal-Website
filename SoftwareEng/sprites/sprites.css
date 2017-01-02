@@ -1,0 +1,29 @@
+/* Arianne Butler - sprites.css file */
+/* Saskatoon, SK - January 2017	 */
+
+body {
+	text-align:center;
+	color: #000000;
+	font-family: Bradley Hand ITC;
+}
+
+#mainTitle {	
+	font-size: 180%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #000000;	
+	height: 30px;
+}
+
+p {
+	font-size: 150%;
+}
+
+img { 
+	width: 250px; 
+	height: 250px;
+	border-radius: 0.4em;
+	border: 10px solid transparent;
+	/*padding-right: 450px;*/
+}

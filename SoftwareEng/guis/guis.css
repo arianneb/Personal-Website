@@ -1,0 +1,56 @@
+/* Arianne Butler - guis.css file */
+/* Saskatoon, SK - January 2017	 */
+
+body {
+	text-align:center;
+	color: #000000;
+	font-family: Bradley Hand ITC;
+}
+
+#mainTitle {	
+	font-size: 180%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #000000;	
+	height: 30px;
+}
+
+p {
+	font-size: 150%;
+}
+
+img { 
+	width: 250px; 
+	height: 250px;
+	border-radius: 0.4em;
+	border: 10px solid transparent;
+	/*padding-right: 450px;*/
+}
+
+img:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80); /* For Internet Explorer */
+}
+
+button:hover {
+	background-color: #fff;
+	opacity: 0.6;
+    filter: alpha(opacity=60); /* For Internet Explorer */
+}
+
+a {
+    color: #0099cc;
+    text-decoration: none;
+	font-family: Bradley Hand ITC;
+}
+
+a.button {
+	background-color: #fff; 
+	padding:10px; 
+	border: none;	
+	font-size: 100%;
+	color: #0099cc;	
+	font-family: Bradley Hand ITC;
+}
+
